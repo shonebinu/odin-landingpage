@@ -9,6 +9,7 @@ body {
     flex-direction: column;
 }
 
+/* Header */
 header {
     background-color: #1f2937;
     display: flex;
@@ -26,18 +27,20 @@ header {
 
 .headerlinks {
     display: flex;
-}
-
-.headerlinks > div {
-    margin: 1rem;
-    color: #e5e7eb;
-}
-
-footer {
-    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
-    background-color: #1f2937;
-    color: #f9faf8;
+}
+
+.headerlinks > a {
+    margin: 1rem;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.headerlinks > a > img {
+    height: 30px;
+    width: auto;
+    padding: 3px;
 }

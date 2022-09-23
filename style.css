@@ -44,3 +44,45 @@ header {
     width: auto;
     padding: 3px;
 }
+
+/* First - Block */
+main {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 0 15%;
+}
+
+main > div > h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 2;
+}
+
+main > div > p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 3%;
+    padding: 8px 30px;
+    border-radius: 8px;
+    background: #3882f6;
+    border: 1px solid royalblue;
+    color: white;
+    font-weight: bold;
+}
+
+#placeholderforimg {
+    height: 300px;
+    width: 600px;
+    background-color: #999999;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #e5e7eb;
+}
